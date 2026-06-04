@@ -1,5 +1,133 @@
-!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>prediccion de tu futuro</title>
+    <title>peliculas mas taquilleras 2026</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: white;
+            margin: 20px;
+        }
+
+        h1{
+            text-align: center;
+            color: gold;
+        }
+
+        h2{
+            color: lightblue;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #2d2d2d;
+        }
+
+        th, td{
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th{
+            background-color: #444;
+        }
+
+        form{
+            background-color: #2d2d2d;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        input, select{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"]{
+            background-color: gold;
+            color: black;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+
+    <h1></h1>
+
+    <p>
+        En esta página encontrarás algunas de las mejores peliculas clasificadas por género.
+    </p>
+
+    <h2>Top de Películas</h2>
+
+    <table>
+        <tr>
+            <th colspan="3">Películas Favoritas</th>
+        </tr>
+
+        <tr>
+            <th>Género</th>
+            <th>Película</th>
+            <th>Año</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Acción</td>
+            <td>Avengers: Endgame</td>
+            <td>2019</td>
+        </tr>
+
+        <tr>
+            <td>Spider-Man: No Way Home</td>
+            <td>2021</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Animación</td>
+            <td>Coco</td>
+            <td>2017</td>
+        </tr>
+
+        <tr>
+            <td>Intensamente 2</td>
+            <td>2024</td>
+        </tr>
+    </table>
+
+    <h2>Formulario de Opinión</h2>
+
+    <form>
+        <label>Nombre:</label>
+        <input type="text" required>
+
+        <label>Película Favorita:</label>
+        <input type="text" required>
+
+        <label>Calificación:</label>
+        <select>
+            <option>1 Estrella</option>
+            <option>2 Estrellas</option>
+            <option>3 Estrellas</option>
+            <option>4 Estrellas</option>
+            <option>5 Estrellas</option>
+        </select>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
